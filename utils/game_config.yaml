@@ -36,6 +36,8 @@ render:
   depth_buffer_enabled: true 
   labels_buffer_enabled: true
 
+  use_labels: true
+
   audio_enabled: false 
 
 controls:
@@ -104,3 +106,9 @@ safety:
   max_episode_seconds: 0
   action_timeout_ms: 0
 
+
+episode_timeout: 4000
+
+step_tics: 2
+fire_tics: 1
+noop_after_fire: true
